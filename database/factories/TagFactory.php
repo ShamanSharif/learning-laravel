@@ -17,7 +17,7 @@ class TagFactory extends Factory
     public function definition(): array
     {
         return [
-            "name" => $this->faker->unique()->randomLetter(),
+            "name" => $this->faker->colorName()
         ];
     }
 }
